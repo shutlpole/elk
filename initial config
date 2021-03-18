@@ -1,0 +1,13 @@
+Network
+
+network:
+  ethernets:
+    enp0s3:
+      dhcp4: no
+      addresses: [192.168.88.222/24]
+      gateway4: 192.168.88.1
+      mtu: 1500
+      nameservers:
+          addresses: [192.168.88.1, 77.88.8.8]
+  version: 2
+
