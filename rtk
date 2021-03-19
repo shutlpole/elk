@@ -1,0 +1,2 @@
+Проверка актуальных версий ЦМ на авроре
+message:"/aurora/v1/auth/" AND context.request_raw_post:"1.15.6"
